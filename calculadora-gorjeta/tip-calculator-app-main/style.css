@@ -1,0 +1,124 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(185, 41%, 84%);
+    align-items: center;
+}
+.img{
+    margin-top: 5rem;
+}
+.caixa{
+display: flex;
+flex-direction: row;
+    margin-top: 5rem;
+
+    height: 500px;
+    width: 900px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+.layout{
+
+    margin-left: 4rem;
+    height: 700px;
+    width: 400px;
+}
+.bill{
+    width: 300px;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+}
+input{
+    display: flex;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 4px;
+    border: none;
+    height: 43px;
+    width: 400px;
+}
+.butoes1{
+    gap: .5rem;
+    display: flex;
+}
+button{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+    margin-top: 1rem;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 3px;
+    height: 55px;
+    width: 130px;
+    border-color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    font-weight: 100%;
+    cursor: pointer;
+}
+.butoes2{
+    gap: .5rem;
+    display: flex;
+}
+.custom{
+    background-color: hsl(189, 41%, 97%);
+    border-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    font-weight: 100%;
+}
+.layout2{
+    margin-left: .2rem;
+    display: flex;
+align-items: center;
+}
+.caixa2{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 20px;
+    height: 430px;
+    width: 380px;
+    background-color: hsl(183, 100%, 15%);
+}
+.tip{
+    height: 30px;
+    width: 150px;
+    color:hsl(0, 0%, 100%) ;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    
+
+}
+.person{
+    color:hsl(184, 14%, 56%)
+}
+.layout3{
+    display: flex;
+    margin: 50px;
+}
+.money{
+    margin-left: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+    color: hsl(172, 67%, 45%);
+    font-size: 20px;
+   
+}
+.layout4{
+    display: flex;
+    margin: 50px;
+}
+.reset{ 
+    color: hsl(183, 100%, 7%);
+    margin-left: 2rem;
+    border-radius: 4px;
+    height: 43px;
+    width: 300px;
+    background-color: hsl(183, 100%, 15%);
+}
